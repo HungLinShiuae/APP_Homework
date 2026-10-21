@@ -1,0 +1,75 @@
+package HM1;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+public class HM1 {
+  public static void main(String[] args)throws IOException {
+	System.out.println("START----------------------------P9,10");
+    System.out.print("Hello World..");
+    System.out.println("Welcome to Java.");
+    System.out.println("學號:113360125");
+    System.out.println("姓名:薛綋霖");
+    System.out.println("----------------------------P16");
+    System.out.println('C');
+    System.out.println("This is Java Test.");
+    System.out.println(123);
+    System.out.println("----------------------------P18");
+    System.out.println("test slash\\\"\'\\");
+    System.out.print("test next line\n");
+    System.out.println("It Work.");
+    System.out.println("----------------------------P25,26");
+    System.out.println("字元轉換(8):\u0078");
+    System.out.println("字元轉換(16):\110");
+    System.out.println("進制轉換(10):2->"+2);
+    System.out.println("進制轉換(8->10):011="+011);
+    System.out.println("進制轉換(16->10):0x14="+0x14);
+    System.out.println("----------------------------P27");
+    int number1=10,number2;
+    System.out.println("number1的數字是:"+number1);
+    number1=20;
+    System.out.println("現在變成:"+number1);
+    number2=number1;
+    System.out.println("number2跟number1一樣是:"+number2);
+    System.out.println("----------------------------P28");
+    System.out.print("請輸入整數:");
+    BufferedReader br1=new BufferedReader(new InputStreamReader(System.in));
+    String str1=br1.readLine();
+    int num1=Integer.parseInt(str1);
+    System.out.println("您輸入的數字是:"+num1);
+    System.out.print("請輸入字串:");
+    BufferedReader br2=new BufferedReader(new InputStreamReader(System.in));
+    String str2=br2.readLine();
+    System.out.println("您輸入的字串是:"+str2);
+    System.out.println("----------------------------P31,34");
+    int p1=5,p2=10;
+    int p3=p1+p2;
+    int p4=0,p5=0;
+    System.out.println("直接加:1+2="+(1+2));
+    System.out.println("直接乘:3*4="+(3*4));
+    System.out.print("p1="+p1);
+    System.out.print("，p2="+p2);
+    System.out.println("，相加等於p3="+p3);
+    System.out.println("也可以直接p2-p1="+(p2-p1));
+    System.out.println("或是p2/p1="+(p2/p1));
+    p3++;
+    System.out.println("用p3++會讓p3="+p3);
+    p4=p3++;
+    p5=++p3;
+    System.out.println("p3++無法直接給變數，所以p4="+p4);
+    System.out.println("++p3可以，所以p5="+p3);
+    System.out.println("----------------------------P38,39");
+    double dnum1=150.8;
+    System.out.println("double浮點數可以儲存像"+dnum1+"的小數點");
+    int inum1=(int)dnum1;
+    System.out.println("但若強制轉換成整數則會無條件捨去為"+inum1);
+    System.out.println("double跟int運算，會變成double的運算，如:150.8/5="+(dnum1/p1));
+    double p7=p1/p2;
+    double p6=(double)p1/(double)p2;
+    System.out.println("若先將p1跟p2變成浮點數再做運算，則p1/p2="+p6);
+    System.out.println("若無，則p1/p2="+p7+"會輸出整數的計算，但用浮點儲存");
+    System.out.println("----------------------------END");
+    System.out.println("以上為HM1的練習");
+    
+  }
+}
