@@ -13,12 +13,11 @@ public class HM2_2_2 {
     }
 */
     public static void main(String[] args){
-        /*System.out.print("請輸入一個整數:");
+        System.out.print("請輸入一個整數:");
         Scanner sc1=new Scanner(System.in);
         int num1=sc1.nextInt();
         System.out.println("您輸入的數字為:"+num1);
         sc1.close();
-        */
         ////////
         System.out.print("請輸入一串字串:");
         Scanner sc2=new Scanner(System.in);
