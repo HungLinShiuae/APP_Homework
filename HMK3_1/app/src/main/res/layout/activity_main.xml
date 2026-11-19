@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/main_sp"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridView
+        android:id="@+id/main_gv"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:numColumns="3"
+        app:layout_constraintTop_toBottomOf="@+id/main_sp"
+        tools:listitem="@layout/adapter_vertical"/>
+    <!--垂直排列的容器-->
+
+    <ListView
+        android:id="@+id/main_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_gv"
+        tools:listitem="@layout/adapter_horizontal"/>
+    <!--水平式排列的容器-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
