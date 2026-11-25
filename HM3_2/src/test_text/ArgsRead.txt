@@ -1,0 +1,4 @@
+These strings are from ArgsRead.txt.
+(HM3_2/src/test_text/ArgsRead.txt)
+I created a json file to load args[0].
+(HM3_2/.vscode/launch.json)

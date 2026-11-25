@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HM3_2_1",
+            "request": "launch",
+            "mainClass": "main.HM3_2_1",
+            "projectName": "HM3_2_23ce9cd5"
+        },
+        {
+            "type": "java",
+            "name": "HM3_2_2",
+            "request": "launch",
+            "mainClass": "main.HM3_2_2",
+            "projectName": "HM3_2_23ce9cd5",
+            "args": ["src/test_text/ArgsRead.txt"]//被讀取的args字串
+        },
+        {
+            "type": "java",
+            "name": "HM3_2_3",
+            "request": "launch",
+            "mainClass": "main.HM3_2_3",
+            "projectName": "HM3_2_23ce9cd5"
+        }
+    ]
+}
