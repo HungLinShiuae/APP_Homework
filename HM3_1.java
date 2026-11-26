@@ -4,6 +4,7 @@ public class HM3_1 {
         System.out.println("113360125-薛綋霖-應用軟體實習-Java Homework 3-1(CH4)");
         System.out.println("---------------------\n---------------------");
         System.out.println("以父類別宣告，以子類別建立物件");
+        System.out.println("---------------------");
         defaultPerson group[]= new defaultPerson[4];//全體宣告為父類別
         group[0] = new defaultPerson("張三", "男", "1990-01-01");
         group[1] = new studentPerson("李四", "女", "1992-02-02"
@@ -103,7 +104,6 @@ final class teacherPerson extends defaultPerson{
         System.out.println("教齡: " + year);
     }
 }
-
 interface building{//介面
     String material = "水泥";//介面變數
     void showM();//介面方法

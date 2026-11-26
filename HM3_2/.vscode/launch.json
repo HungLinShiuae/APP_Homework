@@ -15,6 +15,7 @@
             "projectName": "HM3_2_23ce9cd5"
         },
         {
+            // HM3_2_2的啟動配置
             "type": "java",
             "name": "HM3_2_2",
             "request": "launch",
